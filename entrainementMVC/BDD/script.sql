@@ -1,0 +1,12 @@
+CREATE DATABASE ExoMVC;
+
+CREATE TABLE entreprise (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(512) NOT NULL,
+    siret VARCHAR(14) NOT NULL,
+    adresse VARCHAR(512) NOT NULL,
+    ntel VARCHAR(15) NOT NULL,
+    specialite VARCHAR(255) NOT NULL,
+    nbemploye INT NOT NULL,
+    pole VARCHAR(255) NOT NULL
+);
